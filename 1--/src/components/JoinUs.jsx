@@ -5,7 +5,7 @@ const JoinUS = (props)=>{
 
     return (
         <div>
-            <button id='joinUS'>{props.heading}</button>
+            <button> {props.heading} </button>
         </div>
     );
 
