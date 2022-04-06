@@ -5,7 +5,9 @@ import React from 'react';
 const Settings = ()=>{
 
     return (
-        <div> <button>SETTINGS</button> </div>
+        <div id='buttondiv'>
+             <button id='btnSettings'>SETTINGS</button>
+         </div>
     );
 
 }

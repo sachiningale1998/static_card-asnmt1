@@ -1,6 +1,6 @@
-.App {
-  /* text-align: center; */
-}
+/* .App {
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -9,6 +9,50 @@
 #List2>ul{
   list-style-type:square ;
 }
+#flexdiv{
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+}
+#buttondiv{
+  width: 16vh;
+  margin-top:1vh;
+}
+#buttondiv>button{
+  width: 100%;
+  padding: 1vh;
+  border-radius: 1vw;
+  border: none;
+  /* background-color: #1e96d4; */
+}
+#btnJoin{
+  background-color: dodgerblue;
+}
+#btnSettings{
+  background-color: mediumaquamarine;
+}
+#btnLogin{
+  background-color: goldenrod;
+}
+#btnContact{
+  background-color: crimson;
+}
+#btnSearch{
+  background-color: olivedrab;
+}
+#btnHelp{
+  background-color: slategray;
+}
+#btnHome{
+  background-color: palevioletred;
+}
+#btnDownload{
+  background-color: peru;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
