@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const joinUS = (props)=>{
+const JoinUS = (props)=>{
 
     return (
         <div>
@@ -11,4 +11,4 @@ const joinUS = (props)=>{
 
 }
 
-export default joinUS ;
+export default JoinUS ;
